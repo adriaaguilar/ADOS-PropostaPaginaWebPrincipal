@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes desapareixer {
+	0%		{bottom: 0px;}
+	80%		{bottom: 0px;}
+	100%		{bottom: -50px;}
+}
+ 
+@-webkit-keyframes desapareixer /* Safari and Chrome */ {
+	0%		{bottom: 0px;}
+	80%		{bottom: 0px;}
+	100%		{bottom: -50px;}
+}
+ 
+@keyframes apareixer {
+	0%		{bottom: -38px;}
+	10%		{bottom: 0px;}
+	90%		{bottom: 0px;}
+	100%		{bottom: -38px;}
+
+}
+ 
+@-webkit-keyframes aparecer /* Safari and Chrome */ {
+	0%		{bottom: -38px;}
+	10%		{bottom: 0px;}
+	90%		{bottom: 0px;}
+	100%		{bottom: -38px;}
+}
+
+#cookiesms1:target {
+    display: none;
+}
+
+.cookiesms{	
+	width: 100%;
+	height: 43px;
+	margin: 0 auto;
+	padding-left: 1%;
+        padding-top: 5px;
+        font-size: 1.2em;
+	clear:both;
+        font-weight: strong;
+	color: white;
+	bottom: 0px;
+	position: fixed;
+	left: 0px;
+	background-color: #57F2A2;
+	opacity: 0.7;
+	filter: alpha(opacity=70); /* For IE8 and earlier */
+	transition: bottom 1s;
+	-webkit-transition: bottom 1s; /* Safari */
+	-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+	-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+	box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+	z-index:999999999;
+}
+ 
+.cookiesms:hover {
+	bottom: 0px;
+}
+
+.cookies2 {
+	background-color: #57F2A2;
+	display: inline;
+	opacity: 0.95;
+	filter: alpha(opacity=95);
+	position: absolute; 
+	left: 1%; 
+	top: -30px;
+	font-size: 15px;
+	height: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	-webkit-border-top-right-radius: 15px;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	-moz-border-radius-topleft: 15px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+	-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+	box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+}
+
+
+body {
+	background-image: url("Imatges/fons.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-attachment: cover;
+	background-color: #5796F2;
+}
+
+div.banner {
+	padding: 10px;
+	margin-left: 13%;
+}
+
+div.full {
+	padding: 10px;
+	margin-left: 13%;
+	color: white;
+}
+
+h1 {
+	padding: 10px;
+	margin-left: 13%;
+	color: white;
+}
+
+footer {
+	text-align: center;
+	position: fixed;
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin-top: 80%;
+	background-color: #5796F2;
+}
+
+p.descripció {
+	padding: 10px;
+	text-align: justify;
+	margin-left: 13%;
+	margin-right: 50%;
+	color: white;
+}
+
+li {
+	list-style-type: none;
+	position: relative;
+}
+
+li a {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 5px 10px;
+	color: white;
+	background-color: #5796F2;
+}
+
+li a:hover {
+	background-color: #57F2A2;
+}
+
+nav li:hover ul {
+	display: block;
+}
