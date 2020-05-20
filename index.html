@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+		<meta charset="utf-8">
+		<title>Neogaming</title>
+		<link rel="stylesheet" href="estils.css">
+		<script type="text/javascript">
+		function controlcookies () {
+			localStorage.controlcookie = (localStorage.controlcookie || 0);
+
+			localStorage.controlcookie++;
+			cookie1.style.display='none';
+		}
+		</script>
+	</head>
+	<body>
+		<div class="cookiesms" id="cookie1">
+		Aquesta web utilitza cookies, si continues navegant estàs acceptant la nostra política de cookies.
+		<button onclick="controlcookies()">Acceptar</button>
+		<div  class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
+		</div>
+		<script type="text/javascript">
+		if (localStorage.controlcookie>0){ 
+		document.getElementById('cookie1').style.bottom = '-50px';
+		}
+		</script>
+		<nav>
+			<ul>
+				<li><a class="num1" href="index.html">Pàgina Principal</a></li>
+				<li><a class="num2" href="GTAV_RolePlay.html">RolePlay... Què és?</a></li>
+				<li><a class="num3" href="Formulari_de_contacte.html">Formulari de contacte</a></li>
+			</ul>
+		</nav>
+		<div class="banner">
+		<img src="Imatges/logo.png" alt="[Logo no disponible, disculpin les molesties]">
+		</div>
+		<h1>Qui som?</h1>
+		<p class="descripció">
+		Sóm una empresa la qual comença a introduirse en el mon dels videojocs, on oferim un servidor de GTA V  RolePlay,
+		on qualsevol pot desenvolupar el paper que vulgui en aquesta popular modificació del videojoc GTA V.
+		</p>
+		<p class="descripció">
+		Hem contat amb l'ajuda de l'empresa ADOS, per a la implementació de la estructura de la xarxa, la creació d'aquesta pàgina web,
+		la instal·lació i configuració del servidor FiveM per a poder iniciar el servidor, entre altres coses.
+		</p>
+		<footer>
+			<p>111 22 33 44
+			<br>
+			<a href="http://facebook.es"><img src="Imatges/facebook.png" alt="[*]"></a>
+			<a href="http://twitter.es"><img src="Imatges/twitter.png" alt="[*]"></a>
+			<a href="http://linkedin.es"><img src="Imatges/linkedin.png" alt="[*]"></a>
+			<br>
+			©2020 per NEOGAMING
+			</p>
+		</footer>
+	</body>
+</html>
